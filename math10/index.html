@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Math 10 | Math 9, 10, and Machine Learning</title>
+    <link rel="stylesheet" href="/math910ml/css/style.css" />
+    <link rel="stylesheet" href="/math910ml/css/fonts.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/math910ml/">Home</a></li>
+      
+      <li><a href="/math910ml/math9/">Math 9</a></li>
+      
+      <li><a href="/math910ml/math10/">Math 10</a></li>
+      
+      <li><a href="/math910ml/ml/">Machine Learning</a></li>
+      
+      <li><a href="/math910ml/refs/">References</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+
+
+<h1>Math 10</h1>
+
+
+<h2 id="s22-version">S22 version</h2>
+<h2 id="class-1">Class 1</h2>
+<h2 id="class-2">Class 2</h2>
+<h2 id="class-3">Class 3</h2>
+<h2 id="class-4">Class 4</h2>
+<h2 id="class-5">Class 5</h2>
+<h2 id="class-6">Class 6</h2>
+<h2 id="class-7">Class 7</h2>
+<h2 id="class-8">Class 8</h2>
+<h2 id="class-9">Class 9</h2>
+<h2 id="class-10">Class 10</h2>
+<h2 id="class-11">Class 11</h2>
+<h2 id="class-12">Class 12</h2>
+<h2 id="class-13">Class 13</h2>
+<h2 id="class-14">Class 14</h2>
+<h2 id="class-15">Class 15</h2>
+<h2 id="class-16">Class 16</h2>
+<h2 id="class-17">Class 17</h2>
+<h2 id="class-18">Class 18</h2>
+<h2 id="class-19">Class 19</h2>
+<p>Here is some math $3x^2 + 10$ how do you think that looks?</p>
+<h2 id="class-20">Class 20</h2>
+<h2 id="class-21">Class 21</h2>
+<h2 id="class-22">Class 22</h2>
+<h2 id="class-23">Class 23</h2>
+<h2 id="class-24">Class 24</h2>
+<h2 id="class-25">Class 25</h2>
+<h2 id="class-26">Class 26</h2>
+<h2 id="class-27">Class 27</h2>
+<h2 id="class-28">Class 28</h2>
+<h2 id="class-29">Class 29</h2>
+<p>Introduction.  Where to get help.  Programming environment.  Variables and data types in Python (including NumPy). for loops, if statements, and while loops.  Comparison of speed.  Indexing and slicing with NumPy.    Pythonic code and DRY code.</p>
+<p>Data types</p>
+<ul>
+<li>list</li>
+<li>string</li>
+<li>dict</li>
+<li>tuple</li>
+<li>set</li>
+<li>int</li>
+<li>float</li>
+<li>bool</li>
+<li>function</li>
+</ul>
+<p>Concepts used by experienced Python programmers:</p>
+<ul>
+<li>list comprehension</li>
+<li>f-strings</li>
+<li>lambda functions</li>
+</ul>
+<h2 id="week-2">Week 2</h2>
+<p>Introduction to pandas.   Examples of the following in the context of pandas (for example, with regards to <code>apply</code> and <code>map</code> and <code>applymap</code>):</p>
+<ul>
+<li>list comprehension</li>
+<li>f-strings</li>
+<li>lambda functions</li>
+</ul>
+<p>Using <code>where</code> from NumPy and pandas styler.</p>
+<p>Cleaning a dataset, for example dropping (and specifying) null values.</p>
+<p>Practice finding a dataset from Kaggle.</p>
+<h2 id="week-3">Week 3</h2>
+<p>Plotting based on the <em>Grammar of Graphics</em> using Altair, and a quick comparison with Seaborn and Plotly.  Possible options: Altair, Seaborn, Plotly, pandas plotting.  Relation of data type to how Altair displays the data.  Adding a title, tooltip, using f-strings.  Displaying multiple charts using tuple unpacking and <code>alt.vconcat</code> or <code>alt.hconcat</code>.</p>
+<h2 id="week-4">Week 4</h2>
+<p>Basic concepts of Data Science.  (Feature engineering.)
+Review from Math 9.  Programming environment for the class (Jupyter notebooks or Google Colab or Deepnote).  Basic concepts of Data Science.  Supervised vs unsupervised learning.  Regression vs classification.</p>
+<p>Feature engineering.  K-nearest neighbors classification and K-nearest neighbors regression.  Importance of scaling the data.  Evaluating the performance using relevant loss functions.  In the classification case, why do we use <code>log_loss</code> or another loss function but not <code>mean_squared_error</code> or <code>mean_absolute_error</code>?  The importance of having a test set, and making one using <code>train_test_split</code>.The notion of a decision boundary.    Over-fitting and under-fitting and the bias-variance tradeoff.</p>
+<h2 id="week-5">Week 5</h2>
+<p>Midterm.  Start on Week 6 material.</p>
+<h2 id="week-6">Week 6</h2>
+<p>Scikit-learn.  Linear regression.  Cost function/loss function.  Finding coefficients via the normal equation and via gradient descent.  Polynomial regression.  More on over-fitting and under-fitting.    Interpreting the coefficients.  Regularization.</p>
+<h2 id="week-7">Week 7</h2>
+<p>Logistic regression.  Why is logistic regression also considered a <em>linear</em> model?  How are the coefficients found in this case?</p>
+<h2 id="week-8">Week 8</h2>
+<p>Support vector machines.</p>
+<h2 id="week-9">Week 9</h2>
+<p>Tree-based models and random forests.</p>
+<h2 id="week-10">Week 10</h2>
+<p>Preview of advanced methods.  Boosting.</p>
+<h2 id="finals-week">Finals Week</h2>
+<p>Final exam and/or Course project.</p>
+<h2 id="future-version">Future version:</h2>
+<h2 id="class-1-1">Class 1</h2>
+<h2 id="class-2-1">Class 2</h2>
+<h2 id="class-3-1">Class 3</h2>
+<h2 id="class-4-1">Class 4</h2>
+<h2 id="class-5-1">Class 5</h2>
+<h2 id="class-6-1">Class 6</h2>
+<h2 id="class-7-1">Class 7</h2>
+<h2 id="class-8-1">Class 8</h2>
+<h2 id="class-9-1">Class 9</h2>
+<h2 id="class-10-1">Class 10</h2>
+<h2 id="class-11-1">Class 11</h2>
+<h2 id="class-12-1">Class 12</h2>
+<h2 id="class-13-1">Class 13</h2>
+<h2 id="class-14-1">Class 14</h2>
+<h2 id="class-15-1">Class 15</h2>
+<h2 id="class-16-1">Class 16</h2>
+<h2 id="class-17-1">Class 17</h2>
+<h2 id="class-18-1">Class 18</h2>
+<h2 id="class-19-1">Class 19</h2>
+<h2 id="class-20-1">Class 20</h2>
+<h2 id="class-21-1">Class 21</h2>
+<h2 id="class-22-1">Class 22</h2>
+<h2 id="class-23-1">Class 23</h2>
+<h2 id="class-24-1">Class 24</h2>
+<h2 id="class-25-1">Class 25</h2>
+<h2 id="class-26-1">Class 26</h2>
+<h2 id="class-27-1">Class 27</h2>
+<h2 id="class-28-1">Class 28</h2>
+<h2 id="class-29-1">Class 29</h2>
+<h2 id="week-1">Week 1</h2>
+<p>Introduction.  Review from Math 9.  Programming environment for the class (Jupyter notebooks or Google Colab or Deepnote).  Basic concepts of Data Science.  Supervised vs unsupervised learning.  Regression vs classification.</p>
+<h2 id="week-2-1">Week 2</h2>
+<p>Introduction to pandas.  Review of the following in the context of pandas (for example, with regards to <code>apply</code> and <code>map</code> and <code>applymap</code>):</p>
+<ul>
+<li>list comprehension</li>
+<li>f-strings</li>
+<li>lambda functions</li>
+</ul>
+<p>Cleaning a dataset, for example by dropping (and specifying) null values.</p>
+<p>Using <code>where</code> from NumPy and pandas styler.</p>
+<h2 id="week-3-1">Week 3</h2>
+<p>Plotting based on the <em>Grammar of Graphics</em>.  Possible options: Altair, Seaborn, Plotly, pandas plotting.  Relation of data type to how Altair displays the data.</p>
+<h2 id="week-4-1">Week 4</h2>
+<p>Feature engineering.  K-nearest neighbors classification and K-nearest neighbors regression.  Importance of scaling the data.  Evaluating the performance using relevant loss functions.  In the classification case, why do we use <code>log_loss</code> or another loss function but not <code>mean_squared_error</code> or <code>mean_absolute_error</code>?  The importance of having a test set, and making one using <code>train_test_split</code>.The notion of a decision boundary.    Over-fitting and under-fitting and the bias-variance tradeoff.</p>
+<h2 id="week-5-1">Week 5</h2>
+<p>Midterm.  Start on Week 6 material.</p>
+<h2 id="week-6-1">Week 6</h2>
+<p>Scikit-learn.  Linear regression.  Cost function/loss function.  Finding coefficients via the normal equation and via gradient descent.  Polynomial regression.  More on over-fitting and under-fitting.    Interpreting the coefficients.  Regularization.</p>
+<h2 id="week-7-1">Week 7</h2>
+<p>Logistic regression.  Why is logistic regression also considered a <em>linear</em> model?  How are the coefficients found in this case?</p>
+<h2 id="week-8-1">Week 8</h2>
+<p>Support vector machines.</p>
+<h2 id="week-9-1">Week 9</h2>
+<p>Tree-based models and random forests.</p>
+<h2 id="week-10-1">Week 10</h2>
+<p>Preview of advanced methods.  Boosting.</p>
+<h2 id="finals-week-1">Finals Week</h2>
+<p>Final exam and/or Course project.</p>
+
+
+<ul>
+  
+  
+  
+</ul>
+
+  <footer>
+  
+  
+  <hr/>
+  © Christopher Davis 2022
+  
+  </footer>
+  </body>
+</html>
+
