@@ -1,0 +1,25 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Math 9, 10, and Machine Learning
+theme: hugo-xmin
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: Math 9
+      url: "math9/"
+      weight: 2
+    - name: Math 10
+      url: "math10/"
+      weight: 3
+    - name: Machine Learning
+      url: "ml/"
+      weight: 4
+    - name: References
+      url: "refs/"
+
+params:
+  description: "A website built through Hugo and blogdown."
+  footer: "&copy; Christopher Davis 2022"
