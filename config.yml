@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://christopherdavisuci.github.io/math910ml/
 languageCode: en-us
 title: Math 9, 10, and Machine Learning
 theme: hugo-xmin
